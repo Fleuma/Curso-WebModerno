@@ -1,4 +1,4 @@
-function soma() {
+soma = () => {
     let soma = 0
     for (i in arguments) { // Arguments é necessário quando não se tem certeza da quantidade de valores que o usuário usará na function.
         soma+= arguments[i] // Soma os valores até que não haja mais
